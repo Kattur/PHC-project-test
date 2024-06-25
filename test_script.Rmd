@@ -6,11 +6,7 @@ output: html_document
 
 ---
 
-##A searchable database of pests and pathogens associated with plant species
-
-You can search by plant host, by pathogen, or by country, using the search box below. 
-
-These data were collated as part of the PHYTO-THREATS project: Global threats from *Phytophthora* species (https://www.forestresearch.gov.uk/research/global-threats-from-phytophthora-spp/). The work was supported by a grant funded jointly by the Biotechnology and Biological Sciences Research Council, the Department for Environment, Food and Rural affairs, the Economic and Social Research Council, the Forestry Commission, the Natural Environment Research Council and the Scottish Government, under the Tree Health and Plant Biosecurity Initiative (project reference BB/N023463/1).  
+##A searchable database .... 
   
 
 <br>
@@ -40,8 +36,8 @@ uk <- read.csv("data/test_data_set.csv", stringsAsFactors = FALSE)
 ```
 <br>
 
-##Horizon-scanning for future pathogen threats using host-pathogen databases
+##Horizon-scanning for future...
 
-We have explored whether biological traits and evolutionary relationships between *Phytophthora* pathogens could be used to predict which *Phytophthora* species may have the potential to attack a very broad taxonomic range of host plants. This is a ranked list of the *Phytophthora* species with the most under-reported number of host plant families relative to our model predictions. These species have similar biological traits and/or are closely related to other broad host range *Phytophthora* pathogens, but have only recently been described and may have a much broader range of host plant families than is currently known. 
+We have explored .... 
 <br>
 
