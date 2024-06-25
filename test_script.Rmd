@@ -23,7 +23,7 @@ library(kableExtra)
 ```
 ```{r host_data}
 
-#load("data/ag_hosts.rData")
+
 uk <- read.csv("data/test_data_set.csv", stringsAsFactors = FALSE)
 
 
@@ -31,7 +31,9 @@ uk <- read.csv("data/test_data_set.csv", stringsAsFactors = FALSE)
 
   
 ```{r host1, echo=FALSE, out.width = '50%'}
-
+datatable(uk,
+          rownames = FALSE, 
+          escape = FALSE)
 
 ```
 <br>
