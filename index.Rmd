@@ -24,7 +24,11 @@ library(kableExtra)
 ```{r host_data}
 
 
-uk <- read.csv("data/test_data_set.csv", stringsAsFactors = FALSE)
+species <- read.csv("data//tr_wd_glob_family.csv", stringsAsFactors = FALSE)
+
+genus <- read.csv("data/test_data_set.csv", stringsAsFactors = FALSE)
+
+family <- read.csv("data/test_data_set.csv", stringsAsFactors = FALSE)
 
 
 ```
@@ -36,6 +40,36 @@ datatable(uk,
           escape = FALSE)
 
 ```
+
+
+```{r}
+library(DT)
+
+species_dt <- datatable(species)
+genus_dt <- datatable(genus)
+family_dt <- datatable(family)
+```
+
+# Sales {.tabset .tabset-dropdown}
+
+ ## Species 
+
+```{r ,echo = FALSE}
+species_dt   
+```
+## Genus
+
+```{r ,echo = FALSE}
+genus_dt
+```
+
+
+## Family 
+
+```{r ,echo = FALSE}
+family_dt
+```
+
 <br>
 
 ##Horizon-scanning for future...
