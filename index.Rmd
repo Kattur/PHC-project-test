@@ -34,12 +34,6 @@ family <- read.csv("data/test_data_set.csv", stringsAsFactors = FALSE)
 ```
 
   
-```{r host1, echo=FALSE, out.width = '50%'}
-datatable(uk,
-          rownames = FALSE, 
-          escape = FALSE)
-
-```
 
 
 ```{r}
@@ -50,7 +44,7 @@ genus_dt <- datatable(genus)
 family_dt <- datatable(family)
 ```
 
-# Sales {.tabset .tabset-dropdown}
+# Table {.tabset .tabset-dropdown}
 
  ## Species 
 
